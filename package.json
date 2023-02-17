@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "parcel-dev": "parcel watch js/src/mixed-app.js --dist-dir js/dist",
+    "parcel-build": "parcel build js/src/mixed-app.js --dist-dir js/dist"
+  },
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "length.js": "^1.1.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
